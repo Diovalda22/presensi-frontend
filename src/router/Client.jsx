@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const client = axios.create({
-  baseURL: "http://192.168.20.179:8200/api",
+  baseURL: "https://rfid.rpleskalaber.site/api/",
 });
 
 client.interceptors.request.use(
